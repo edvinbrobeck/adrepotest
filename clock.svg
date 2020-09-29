@@ -107,5 +107,6 @@
   }
   var date = new Date();
   setTime(date.getHours(), date.getMinutes(), date.getSeconds());
+  alert('test');
   </script>
 </svg>
