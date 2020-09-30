@@ -98,7 +98,9 @@
   <use xlink:href="#hand-m" id="hand-m-use" />
   <use xlink:href="#hand-s" id="hand-s-use" />
   <circle id="center-dot" r="5" />
-  <image x="0" y="0" width="275" height="95" xlink:href="http://www.google.co.uk/images/srpr/logo3w.png" />
+  <image x="0" y="0" width="275" height="95" href="https://dummyimage.com/qvga" />
+
+  
   <script type="text/javascript">
   function setTime(h, m, s) {
     document.getElementById("hand-h").setAttribute("transform", "rotate(" + ((h >= 12 ? h - 12 : h) * 30 + m / 2 + s / 120) + ")");
@@ -107,6 +109,5 @@
   }
   var date = new Date();
   setTime(date.getHours(), date.getMinutes(), date.getSeconds());
-  alert('test');
   </script>
 </svg>
